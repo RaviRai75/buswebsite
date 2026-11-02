@@ -1,12 +1,43 @@
-# React + Vite
+# Bus Travel Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A React bus-travel frontend prototype with a travel-search interface, route cards, hero imagery and promotional sections. The implementation is concentrated in `src/App.jsx` and styled with Tailwind CSS and custom CSS.
 
-Currently, two official plugins are available:
+## UI features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Origin, destination and travel-date inputs
+- Popular-route cards with demonstration travel information
+- Image carousel and animated visual effects
+- Testimonial and promotional content
+- Responsive page layouts
 
-## Expanding the ESLint configuration
+## Technology
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+React 19, JavaScript, Vite 7, Tailwind CSS 4, Lucide React and React Slick.
+
+## Run locally
+
+Use a Node.js version supported by Vite 7 (Node.js 20.19+ or 22.12+).
+
+```bash
+git clone https://github.com/RaviRai75/buswebsite.git
+cd buswebsite
+npm ci
+npm run dev
+```
+
+Open the local URL printed by Vite.
+
+| Command | Purpose |
+| --- | --- |
+| `npm run dev` | Start the development server |
+| `npm run build` | Build the frontend into `dist/` |
+| `npm run preview` | Preview the built frontend |
+| `npm run lint` | Run ESLint |
+
+## Project scope
+
+This repository contains a frontend prototype, not a live bus-ticketing service. Search and booking controls do not establish an integration with seat inventory, real fare data, payment processing or ticket issuance. Sample routes, prices and testimonials are demonstration content.
+
+## Author
+
+[Ravi Ranjan Rai](https://github.com/RaviRai75) — Full Stack and React Native Developer.
